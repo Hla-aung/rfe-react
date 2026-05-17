@@ -1,13 +1,14 @@
 import { BikeWheels } from "./Wheels";
 
-export default function Bike({
-  bikeName = "Unknown Bike",
-  bikeColor = "Unknown Color",
-}) {
+export default function Bike({ bikeName = "Unknown Bike", bikeColor = "Unknown Color" }) {
   //   //   const bikeName = "Honda";
   //   const bikeColor = "red";
 
-  //   const { bikeName, bikeColor } = props;
+  // const { bikeName, bikeColor } = props;
+
+  // const bikeName = props.bikeName
+  // const bikeColor = props.bikeColor
+
 
   return (
     <div>

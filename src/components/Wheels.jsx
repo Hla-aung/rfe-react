@@ -1,4 +1,4 @@
-export function CarWheels() {
+ function CarWheels() {
   return (
     <div>
       <h3>Wheels component</h3>
@@ -7,7 +7,7 @@ export function CarWheels() {
   );
 }
 
-export function BikeWheels() {
+ function BikeWheels() {
   return (
     <div>
       <h3>Wheels component</h3>
@@ -16,4 +16,4 @@ export function BikeWheels() {
   );
 }
 
-// export { CarWheels, BikeWheels };
+export { CarWheels, BikeWheels };
